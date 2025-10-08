@@ -1,11 +1,11 @@
 package triage.Model;
 
-import java.util.List;
 import java.util.Map;
-import java.util.ArrayList;
+import java.util.List;
 import java.util.HashMap;
+import java.util.ArrayList;
 
-public class Patient {
+public class Patient implements Comparable<Patient> {
     private final static String[] highRiskConditions = {
         "cancer", "heart disease", "epoc", "kidney disease", "liver disease",
     };
@@ -53,6 +53,30 @@ public class Patient {
         
         this.overallPriority = PriorityLevel.LOW;
         this.overallPriorityScore = overallPriority.getPriorityScore();
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getPainLevel() {
+        return painLevel;
+    }
+    
+    public PriorityLevel getOverallPriority() {
+        return overallPriority;
+    }
+
+    public int getOverallPriorityScore() {
+        return overallPriorityScore;
     }
     
     public void setCurrentIllness(String illness) {
@@ -223,5 +247,53 @@ public class Patient {
         message += ", overallPriority=" + overallPriority.getDescription() + '}';
 
         return message;
+    }
+
+    @Override
+    public int compareTo(Patient o) {
+        int priorityDifference;
+
+        // Compare priority levels. The highest priority level has
+        // the highest priority
+        priorityDifference = Integer.compare(
+            overallPriority.getPriorityScore(),
+            o.getOverallPriority().getPriorityScore()
+        );
+        if (priorityDifference != 0) {
+            return priorityDifference;
+        }
+        
+        // If priorities are equal, compare overall priority scores
+        // (how many factors are high medium or low). The highest
+        // overall priority score has the highest priority
+        priorityDifference = Integer.compare(
+            overallPriorityScore, o.getOverallPriorityScore()
+        );
+        if (priorityDifference != 0) {
+            return priorityDifference;
+        }
+        
+        // if priorities and overall priority scores are equal, use age
+        // distance to optimum age in the low priority range (18-40).
+        // The highest age distance has the highest priority (very young
+        // or very old patients).
+        int optimumAge = (18 + 40) / 2;
+        priorityDifference = Integer.compare(
+            Math.abs(this.age - optimumAge), Math.abs(o.getAge() - optimumAge)
+        );
+        if (priorityDifference != 0) {
+            return priorityDifference;
+        }
+
+        // if age is equal, use pain level: highest pain level has
+        // highest priority
+        priorityDifference = Integer.compare(painLevel, o.getPainLevel());
+        if (priorityDifference != 0) {
+            return priorityDifference;
+        }
+        
+        // if age is equal, use patient ID: lowest ID has highest
+        // priority as it was the first to be registered
+        return -Integer.compare(id, o.getId());
     }
 }
