@@ -79,6 +79,24 @@ public class Patient implements Comparable<Patient> {
         return overallPriorityScore;
     }
     
+    public String getCurrentIllness() {
+        return currentIllness;
+    }
+    
+    // Create copies of the reference type objects to ensure
+    // immutability
+    public List<String> getMedicalHistory() {
+        return new ArrayList<>(medicalHistory);
+    }
+    
+    public List<String> getSocialFactors() {
+        return new ArrayList<>(socialFactors);
+    }
+    
+    public Map<String, Double> getVitalSigns() {
+        return new HashMap<>(vitalSigns);
+    }
+    
     public void setCurrentIllness(String illness) {
         this.currentIllness = illness;
     }

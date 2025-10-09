@@ -4,9 +4,12 @@ import java.util.Map;
 import java.util.List;
 import java.util.Collections;
 import java.util.PriorityQueue;
+import java.io.IOException;
 
 import triage.Model.Patient;
 import triage.Model.PriorityLevel;
+import triage.Service.PatientLoaderService;
+
 
 public class UrgenciesService {
     private static int waitingPatients = 0;
@@ -47,6 +50,14 @@ public class UrgenciesService {
     public static void attendPatients() {
         while (waitingPatients > 0) {
             dequeueCycle();
+        }
+    }
+
+    public static void loadPatientsFromJsonFile(String filePath) throws IOException, IllegalArgumentException {
+        List<Patient> patients = PatientLoaderService.loadPatientsFromFile(filePath);
+        
+        for (Patient patient : patients) {
+            addPatient(patient);
         }
     }
 
