@@ -71,11 +71,11 @@ public class Patient implements Comparable<Patient> {
         return painLevel;
     }
     
-    public PriorityLevel getOverallPriority() {
+    public PriorityLevel getPriority() {
         return overallPriority;
     }
 
-    public int getOverallPriorityScore() {
+    public int getPriorityScore() {
         return overallPriorityScore;
     }
     
@@ -83,10 +83,12 @@ public class Patient implements Comparable<Patient> {
         this.currentIllness = illness;
     }
 
-    public void setPainLevel(int painLevel) { 
+    public void setPainLevel(int painLevel) throws IllegalArgumentException {
         if (painLevel >= 1 && painLevel <= 10) {
             this.painLevel = painLevel; 
+            return;
         }
+        throw new IllegalArgumentException("Pain level must be between 1 and 10");
     }
     
     public void addMedicalHistory(String condition) {
@@ -257,7 +259,7 @@ public class Patient implements Comparable<Patient> {
         // the highest priority
         priorityDifference = Integer.compare(
             overallPriority.getPriorityScore(),
-            o.getOverallPriority().getPriorityScore()
+            o.getPriority().getPriorityScore()
         );
         if (priorityDifference != 0) {
             return priorityDifference;
@@ -267,7 +269,7 @@ public class Patient implements Comparable<Patient> {
         // (how many factors are high medium or low). The highest
         // overall priority score has the highest priority
         priorityDifference = Integer.compare(
-            overallPriorityScore, o.getOverallPriorityScore()
+            overallPriorityScore, o.getPriorityScore()
         );
         if (priorityDifference != 0) {
             return priorityDifference;
