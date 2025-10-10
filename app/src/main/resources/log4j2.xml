@@ -3,7 +3,7 @@
     <Properties>
         <Property name="log_pattern">%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n</Property>
         <Property name="app_log_root">logs</Property>
-        <Property name="base_name">encryption_${hostName}</Property>
+        <Property name="base_name">extended-triage_${hostName}</Property>
     </Properties>
     <Appenders>
         <Console name="Console">

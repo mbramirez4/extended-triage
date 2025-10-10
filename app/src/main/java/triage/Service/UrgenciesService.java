@@ -21,10 +21,46 @@ public class UrgenciesService {
     private static int nMediumPriorityToTreat = 2;
     private static int nLowPriorityToTreat = 1;
 
+    private static int nHighPriorityTreated = 0;
+    private static int nMediumPriorityTreated = 0;
+    private static int nLowPriorityTreated = 0;
+
+    private static int treatedPatients = 0;
+    private static int longestWaitTime = 0;
+    private static Patient patientWithLongestWaitTime = null;
+
     private static PriorityQueue<Patient> highPriority = new PriorityQueue<>(Collections.reverseOrder());
     private static PriorityQueue<Patient> mediumPriority = new PriorityQueue<>(Collections.reverseOrder());
     private static PriorityQueue<Patient> lowPriority = new PriorityQueue<>(Collections.reverseOrder());
     
+    public static int getNumberHighPriorityTreated() {
+        return nHighPriorityTreated;
+    }
+
+    public static int getNumberMediumPriorityTreated() {
+        return nMediumPriorityTreated;
+    }
+
+    public static int getNumberLowPriorityTreated() {
+        return nLowPriorityTreated;
+    }
+
+    public static int getNumberWaitingPatients() {
+        return waitingPatients;
+    }
+
+    public static int getNumberTreatedPatients() {
+        return treatedPatients;
+    }
+
+    public static int getLongestWaitTime() {
+        return longestWaitTime;
+    }
+
+    public static Patient getPatientWithLongestWaitTime() {
+        return patientWithLongestWaitTime;
+    }
+
     public static void registerPatient(
         String name,
         int age,
@@ -96,6 +132,20 @@ public class UrgenciesService {
         waitingPatients++;
     }
 
+    private static void checkLongestWaitTime(Patient patient) {
+        // The wait time is computed as the difference between the
+        // turn number in which the patient was treated
+        // (treatedPatients) and the arrival turn number (patient ID)
+        int patientWaitTime = treatedPatients - patient.getId();
+
+        if (patientWaitTime > longestWaitTime) {
+            longestWaitTime = patientWaitTime;
+            patientWithLongestWaitTime = patient;
+
+            logger.debug("Current longest wait time: " + longestWaitTime + ". Patient with longest wait time: " + patientWithLongestWaitTime);
+        }
+    }
+
     private static void dequeueCycle() {
         /* It is checked if each queue has patients to be treated at the
         beginning of the cycle; in that case, the proportion is
@@ -126,6 +176,11 @@ public class UrgenciesService {
             }
             patient = highPriority.poll();
             logger.info("Patient dequeued from the High priority queue: " + patient);
+
+            checkLongestWaitTime(patient);
+            
+            nHighPriorityTreated++;
+            treatedPatients++;
             waitingPatients--;
         }
         for (int i = 0; i < nMedium; i++) {
@@ -134,6 +189,11 @@ public class UrgenciesService {
             }
             patient = mediumPriority.poll();
             logger.info("Patient dequeued from the Medium priority queue: " + patient);
+
+            checkLongestWaitTime(patient);
+
+            nMediumPriorityTreated++;
+            treatedPatients++;
             waitingPatients--;
         }
         for (int i = 0; i < nLow; i++) {
@@ -142,6 +202,11 @@ public class UrgenciesService {
             }
             patient = lowPriority.poll();
             logger.info("Patient dequeued from the Low priority queue: " + patient);
+
+            checkLongestWaitTime(patient);
+
+            nLowPriorityTreated++;
+            treatedPatients++;
             waitingPatients--;
         }
     }
