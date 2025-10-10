@@ -1,0 +1,61 @@
+[
+    {
+        "name": "p1",
+        "age": 72,
+        "pain_level": 8,
+        "current_illness": "chest pain",
+        "vital_signs": {
+            "oxygen_saturation": 89.0
+        },
+        "social_factors": [
+            "elderly alone"
+        ]
+    },
+    {
+        "name": "p2",
+        "age": 35,
+        "pain_level": 6,
+        "current_illness": "persistent fever",
+        "vital_signs": {
+            "temperature": 39.2
+        }
+    },
+    {
+        "name": "p3",
+        "age": 5,
+        "pain_level": 1,
+        "current_illness": "head injury",
+        "vital_signs": {
+            "temperature": 39.2
+        }
+    },
+    {
+        "name": "p4",
+        "age": 60,
+        "pain_level": 1,
+        "current_illness": "abdominal pain",
+        "vital_signs": {
+            "oxygen_saturation": 93.0
+        },
+        "medical_history": [
+            "diabetes"
+        ]
+    },
+    {
+        "name": "p5",
+        "age": 25,
+        "pain_level": 3
+    },
+    {
+        "name": "p6",
+        "age": 40,
+        "pain_level": 9,
+        "current_illness": "breathing difficulty",
+        "vital_signs": {
+            "oxygen_saturation": 85.0
+        },
+        "medical_history": [
+            "cancer"
+        ]
+    }
+]
