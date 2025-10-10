@@ -167,7 +167,7 @@ public class Patient implements Comparable<Patient> {
 
             for (String mediumRisk : mediumRiskConditions) {
                 if (condition.equals(mediumRisk)) {
-                    return PriorityLevel.HIGH;
+                    return PriorityLevel.MEDIUM;
                 }
             }
         }
@@ -186,7 +186,7 @@ public class Patient implements Comparable<Patient> {
 
         for (String mediumRisk : mediumRiskSymptoms) {
             if (illness.equals(mediumRisk)) {
-                return PriorityLevel.HIGH;
+                return PriorityLevel.MEDIUM;
             }
         }   
         
@@ -264,7 +264,8 @@ public class Patient implements Comparable<Patient> {
         message += ", age=" + age;
         message += ", painLevel=" + painLevel;
         message += ", currentIllness=" + currentIllness;
-        message += ", overallPriority=" + overallPriority.getDescription() + '}';
+        message += ", overallPriority=" + overallPriority.getDescription();
+        message += ", overallPriorityScore=" + overallPriorityScore + '}';
 
         return message;
     }
