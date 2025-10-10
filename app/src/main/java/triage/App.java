@@ -11,6 +11,13 @@ public class App {
             String filePath = "app/src/main/resources/sample_patients.json";
             UrgenciesService.loadPatientsFromJsonFile(filePath);
             
+            // Run a cycle of treatment
+            UrgenciesService.dequeueCycle();
+
+            // Add more patients to the waiting queue
+            filePath = "app/src/main/resources/test_patients.json";
+            UrgenciesService.loadPatientsFromJsonFile(filePath);
+            
             UrgenciesService.attendPatients();
             
         } catch (IOException e) {

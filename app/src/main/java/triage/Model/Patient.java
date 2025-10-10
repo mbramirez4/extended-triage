@@ -301,7 +301,8 @@ public class Patient implements Comparable<Patient> {
         
         // If priorities are equal, compare overall priority scores
         // (how many factors are high medium or low). The highest
-        // overall priority score has the highest priority
+        // overall priority score has the highest priority. This
+        // criterion was chosen as it reflects the overall risk level
         priorityDifference = Integer.compare(
             overallPriorityScore, o.getPriorityScore()
         );
@@ -312,7 +313,8 @@ public class Patient implements Comparable<Patient> {
         // if priorities and overall priority scores are equal, use age
         // distance to optimum age in the low priority range (18-40).
         // The highest age distance has the highest priority (very young
-        // or very old patients).
+        // or very old patients). Elder and very young people are more
+        // vulnerable regardless of their pain level.
         int optimumAge = (18 + 40) / 2;
         priorityDifference = Integer.compare(
             Math.abs(this.age - optimumAge), Math.abs(o.getAge() - optimumAge)

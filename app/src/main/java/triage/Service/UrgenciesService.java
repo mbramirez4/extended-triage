@@ -146,7 +146,7 @@ public class UrgenciesService {
         }
     }
 
-    private static void dequeueCycle() {
+    public static void dequeueCycle() {
         /* It is checked if each queue has patients to be treated at the
         beginning of the cycle; in that case, the proportion is
         maintained regardless of the number of patients to be treated in
