@@ -1,0 +1,1375 @@
+[
+  {
+    "name": "John Smith",
+    "age": 45,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "hypertension",
+      "diabetes"
+    ],
+    "social_factors": [
+      "with family support"
+    ],
+    "vital_signs": {
+      "temperature": 38.5,
+      "blood_pressure": 150.0,
+      "oxygen_saturation": 92.0
+    }
+  },
+  {
+    "name": "Maria Garcia",
+    "age": 72,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "heart disease",
+      "cancer"
+    ],
+    "social_factors": [
+      "elderly alone"
+    ],
+    "vital_signs": {
+      "temperature": 36.8,
+      "blood_pressure": 120.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Sarah Johnson",
+    "age": 28,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "medical_history": [],
+    "vital_signs": {
+      "temperature": 37.2,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 99.0
+    }
+  },
+  {
+    "name": "Michael Brown",
+    "age": 8,
+    "pain_level": 9,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "social_factors": [
+      "minor without guardian"
+    ],
+    "vital_signs": {
+      "temperature": 39.1,
+      "blood_pressure": 95.0,
+      "oxygen_saturation": 85.0
+    }
+  },
+  {
+    "name": "Emily Davis",
+    "age": 35,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "medical_history": [
+      "vascular disease"
+    ],
+    "social_factors": [
+      "with family support"
+    ],
+    "vital_signs": {
+      "temperature": 37.0,
+      "blood_pressure": 130.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Robert Wilson",
+    "age": 55,
+    "pain_level": 7,
+    "current_illness": "internal bleeding",
+    "medical_history": [
+      "liver disease",
+      "kidney disease"
+    ],
+    "social_factors": [],
+    "vital_signs": {
+      "temperature": 35.5,
+      "blood_pressure": 85.0,
+      "oxygen_saturation": 88.0
+    }
+  },
+  {
+    "name": "Lisa Anderson",
+    "age": 25,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [],
+    "vital_signs": {
+      "temperature": 39.5,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "David Miller",
+    "age": 65,
+    "pain_level": 5,
+    "current_illness": "bloody vomit",
+    "medical_history": [
+      "hypertension"
+    ],
+    "social_factors": [],
+    "vital_signs": {
+      "temperature": 36.5,
+      "blood_pressure": 160.0,
+      "oxygen_saturation": 94.0
+    }
+  },
+  {
+    "name": "Jennifer Taylor",
+    "age": 34,
+    "pain_level": 6,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 37.8,
+      "blood_pressure": 145.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Christopher Lee",
+    "age": 19,
+    "pain_level": 3,
+    "current_illness": "headache"
+  },
+  {
+    "name": "Amanda White",
+    "age": 78,
+    "pain_level": 8,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "heart disease",
+      "epoc"
+    ],
+    "social_factors": [
+      "elderly alone"
+    ],
+    "vital_signs": {
+      "temperature": 38.2,
+      "blood_pressure": 95.0,
+      "oxygen_saturation": 87.0
+    }
+  },
+  {
+    "name": "James Rodriguez",
+    "age": 42,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "medical_history": [
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 36.9,
+      "blood_pressure": 135.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Michelle Clark",
+    "age": 29,
+    "pain_level": 7,
+    "current_illness": "fracture",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Daniel Martinez",
+    "age": 56,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "medical_history": [
+      "liver disease"
+    ],
+    "vital_signs": {
+      "temperature": 35.8,
+      "blood_pressure": 80.0,
+      "oxygen_saturation": 89.0
+    }
+  },
+  {
+    "name": "Ashley Thompson",
+    "age": 23,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "vital_signs": {
+      "temperature": 39.8,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Kevin Anderson",
+    "age": 67,
+    "pain_level": 6,
+    "current_illness": "bloody vomit",
+    "medical_history": [
+      "cancer",
+      "kidney disease"
+    ],
+    "social_factors": [
+      "elderly alone"
+    ]
+  },
+  {
+    "name": "Nicole Garcia",
+    "age": 31,
+    "pain_level": 5,
+    "current_illness": "chest pain",
+    "vital_signs": {
+      "temperature": 37.5,
+      "blood_pressure": 140.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Ryan Wilson",
+    "age": 15,
+    "pain_level": 8,
+    "current_illness": "head injury",
+    "vital_signs": {
+      "temperature": 36.2,
+      "blood_pressure": 90.0,
+      "oxygen_saturation": 99.0
+    }
+  },
+  {
+    "name": "Stephanie Brown",
+    "age": 48,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "medical_history": [
+      "vascular disease"
+    ]
+  },
+  {
+    "name": "Brandon Davis",
+    "age": 26,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.9,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 84.0
+    }
+  },
+  {
+    "name": "Rachel Miller",
+    "age": 39,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "vital_signs": {
+      "temperature": 37.1,
+      "blood_pressure": 125.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Tyler Johnson",
+    "age": 22,
+    "pain_level": 6,
+    "current_illness": "fracture"
+  },
+  {
+    "name": "Lauren Smith",
+    "age": 73,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "medical_history": [
+      "heart disease",
+      "cancer"
+    ],
+    "social_factors": [
+      "elderly alone"
+    ],
+    "vital_signs": {
+      "temperature": 35.2,
+      "blood_pressure": 75.0,
+      "oxygen_saturation": 86.0
+    }
+  },
+  {
+    "name": "Justin White",
+    "age": 35,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "vital_signs": {
+      "temperature": 40.1,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Samantha Taylor",
+    "age": 44,
+    "pain_level": 5,
+    "current_illness": "bloody vomit",
+    "medical_history": [
+      "hypertension",
+      "diabetes"
+    ]
+  },
+  {
+    "name": "Andrew Clark",
+    "age": 18,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "vital_signs": {
+      "temperature": 37.9,
+      "blood_pressure": 130.0,
+      "oxygen_saturation": 94.0
+    }
+  },
+  {
+    "name": "Jessica Rodriguez",
+    "age": 52,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "medical_history": [
+      "liver disease"
+    ]
+  },
+  {
+    "name": "Matthew Thompson",
+    "age": 27,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.5,
+      "blood_pressure": 115.0,
+      "oxygen_saturation": 88.0
+    }
+  },
+  {
+    "name": "Brittany Anderson",
+    "age": 33,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Joshua Garcia",
+    "age": 61,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "kidney disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.7,
+      "blood_pressure": 120.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Kayla Wilson",
+    "age": 24,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Nathan Davis",
+    "age": 47,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 39.5,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Megan Miller",
+    "age": 16,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Zachary Johnson",
+    "age": 38,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 37.6,
+      "blood_pressure": 155.0,
+      "oxygen_saturation": 93.0
+    }
+  },
+  {
+    "name": "Crystal Smith",
+    "age": 29,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Jacob White",
+    "age": 55,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "cancer",
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.1,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 85.0
+    }
+  },
+  {
+    "name": "Destiny Taylor",
+    "age": 21,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Cody Clark",
+    "age": 43,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 36.8,
+      "blood_pressure": 140.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Vanessa Rodriguez",
+    "age": 36,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "medical_history": [
+      "liver disease",
+      "kidney disease"
+    ]
+  },
+  {
+    "name": "Derek Thompson",
+    "age": 25,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "vital_signs": {
+      "temperature": 40.2,
+      "blood_pressure": 95.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Monique Anderson",
+    "age": 68,
+    "pain_level": 5,
+    "current_illness": "bloody vomit",
+    "medical_history": [
+      "cancer"
+    ]
+  },
+  {
+    "name": "Marcus Garcia",
+    "age": 32,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "vital_signs": {
+      "temperature": 37.4,
+      "blood_pressure": 150.0,
+      "oxygen_saturation": 92.0
+    }
+  },
+  {
+    "name": "Tiffany Wilson",
+    "age": 17,
+    "pain_level": 3,
+    "current_illness": "headache"
+  },
+  {
+    "name": "Antonio Davis",
+    "age": 49,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc",
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 38.7,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 87.0
+    }
+  },
+  {
+    "name": "Jasmine Miller",
+    "age": 30,
+    "pain_level": 4,
+    "current_illness": "abdominal pain"
+  },
+  {
+    "name": "Carlos Johnson",
+    "age": 58,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.5,
+      "blood_pressure": 125.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Alicia Smith",
+    "age": 26,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Ricardo White",
+    "age": 41,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 39.9,
+      "blood_pressure": 115.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Erica Taylor",
+    "age": 20,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Fernando Clark",
+    "age": 54,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "hypertension",
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 37.8,
+      "blood_pressure": 160.0,
+      "oxygen_saturation": 91.0
+    }
+  },
+  {
+    "name": "Gabriela Rodriguez",
+    "age": 28,
+    "pain_level": 3,
+    "current_illness": "headache"
+  },
+  {
+    "name": "Hector Thompson",
+    "age": 45,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.3,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 89.0
+    }
+  },
+  {
+    "name": "Isabella Anderson",
+    "age": 33,
+    "pain_level": 4,
+    "current_illness": "abdominal pain"
+  },
+  {
+    "name": "Javier Garcia",
+    "age": 62,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "cancer",
+      "kidney disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.9,
+      "blood_pressure": 130.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Katherine Wilson",
+    "age": 24,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Luis Davis",
+    "age": 37,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "liver disease"
+    ],
+    "vital_signs": {
+      "temperature": 40.0,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Maria Miller",
+    "age": 19,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Nicolas Johnson",
+    "age": 51,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "heart disease",
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 37.2,
+      "blood_pressure": 145.0,
+      "oxygen_saturation": 94.0
+    }
+  },
+  {
+    "name": "Olivia Smith",
+    "age": 27,
+    "pain_level": 3,
+    "current_illness": "headache"
+  },
+  {
+    "name": "Pablo White",
+    "age": 44,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc",
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 38.6,
+      "blood_pressure": 120.0,
+      "oxygen_saturation": 88.0
+    }
+  },
+  {
+    "name": "Quinn Taylor",
+    "age": 31,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Rosa Clark",
+    "age": 59,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 36.6,
+      "blood_pressure": 135.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Samuel Rodriguez",
+    "age": 23,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Teresa Thompson",
+    "age": 46,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "cancer"
+    ],
+    "vital_signs": {
+      "temperature": 39.7,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Ulises Anderson",
+    "age": 18,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Valeria Garcia",
+    "age": 35,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "social_factors": [
+      "pregnant"
+    ],
+    "vital_signs": {
+      "temperature": 37.7,
+      "blood_pressure": 155.0,
+      "oxygen_saturation": 93.0
+    }
+  },
+  {
+    "name": "William Wilson",
+    "age": 52,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "medical_history": [
+      "liver disease"
+    ]
+  },
+  {
+    "name": "Ximena Davis",
+    "age": 29,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.4,
+      "blood_pressure": 115.0,
+      "oxygen_saturation": 86.0
+    }
+  },
+  {
+    "name": "Yolanda Miller",
+    "age": 40,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Zachary Johnson",
+    "age": 63,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "kidney disease",
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.8,
+      "blood_pressure": 125.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Adriana Smith",
+    "age": 25,
+    "pain_level": 9,
+    "current_illness": "internal bleeding"
+  },
+  {
+    "name": "Benjamin White",
+    "age": 48,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 39.6,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Carmen Taylor",
+    "age": 21,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Diego Clark",
+    "age": 56,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "hypertension",
+      "cancer"
+    ],
+    "vital_signs": {
+      "temperature": 37.3,
+      "blood_pressure": 150.0,
+      "oxygen_saturation": 92.0
+    }
+  },
+  {
+    "name": "Elena Rodriguez",
+    "age": 32,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Francisco Thompson",
+    "age": 39,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc",
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 38.8,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 87.0
+    }
+  },
+  {
+    "name": "Gloria Anderson",
+    "age": 26,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Hugo Garcia",
+    "age": 57,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "liver disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.7,
+      "blood_pressure": 140.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Iris Wilson",
+    "age": 22,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Jorge Davis",
+    "age": 43,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 40.3,
+      "blood_pressure": 95.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Karina Miller",
+    "age": 17,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Leonardo Johnson",
+    "age": 50,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "vascular disease",
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 37.5,
+      "blood_pressure": 160.0,
+      "oxygen_saturation": 91.0
+    }
+  },
+  {
+    "name": "Mariana Smith",
+    "age": 30,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Nestor White",
+    "age": 36,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.9,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 88.0
+    }
+  },
+  {
+    "name": "Ofelia Taylor",
+    "age": 28,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Patricio Clark",
+    "age": 61,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "cancer",
+      "kidney disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.4,
+      "blood_pressure": 130.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Quetzalli Rodriguez",
+    "age": 24,
+    "pain_level": 9,
+    "current_illness": "internal bleeding",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Roberto Thompson",
+    "age": 47,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 39.8,
+      "blood_pressure": 115.0,
+      "oxygen_saturation": 94.0
+    }
+  },
+  {
+    "name": "Sofia Anderson",
+    "age": 20,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Tomas Garcia",
+    "age": 53,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "heart disease",
+      "liver disease"
+    ],
+    "vital_signs": {
+      "temperature": 37.1,
+      "blood_pressure": 145.0,
+      "oxygen_saturation": 93.0
+    }
+  },
+  {
+    "name": "Ursula Wilson",
+    "age": 31,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Victor Davis",
+    "age": 38,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc",
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 38.2,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 89.0
+    }
+  },
+  {
+    "name": "Wendy Miller",
+    "age": 27,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Xavier Johnson",
+    "age": 64,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 36.9,
+      "blood_pressure": 135.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Yadira Smith",
+    "age": 25,
+    "pain_level": 9,
+    "current_illness": "internal bleeding"
+  },
+  {
+    "name": "Zacarias White",
+    "age": 42,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "cancer"
+    ],
+    "vital_signs": {
+      "temperature": 40.1,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Alejandra Taylor",
+    "age": 19,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Bruno Clark",
+    "age": 55,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "heart disease",
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 37.6,
+      "blood_pressure": 155.0,
+      "oxygen_saturation": 92.0
+    }
+  },
+  {
+    "name": "Catalina Rodriguez",
+    "age": 33,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Dario Thompson",
+    "age": 40,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.7,
+      "blood_pressure": 120.0,
+      "oxygen_saturation": 87.0
+    }
+  },
+  {
+    "name": "Esperanza Anderson",
+    "age": 29,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Felipe Garcia",
+    "age": 58,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "kidney disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.5,
+      "blood_pressure": 125.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Gabriela Wilson",
+    "age": 23,
+    "pain_level": 9,
+    "current_illness": "internal bleeding"
+  },
+  {
+    "name": "Hernan Davis",
+    "age": 45,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "liver disease"
+    ],
+    "vital_signs": {
+      "temperature": 39.9,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Isabel Miller",
+    "age": 18,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Joaquin Johnson",
+    "age": 51,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "vascular disease",
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 37.4,
+      "blood_pressure": 150.0,
+      "oxygen_saturation": 94.0
+    }
+  },
+  {
+    "name": "Karla Smith",
+    "age": 32,
+    "pain_level": 3,
+    "current_illness": "headache",
+    "social_factors": [
+      "pregnant"
+    ]
+  },
+  {
+    "name": "Lorenzo White",
+    "age": 37,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc",
+      "heart disease"
+    ],
+    "vital_signs": {
+      "temperature": 38.3,
+      "blood_pressure": 115.0,
+      "oxygen_saturation": 88.0
+    }
+  },
+  {
+    "name": "Magdalena Taylor",
+    "age": 28,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Nicolas Clark",
+    "age": 60,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "cancer"
+    ],
+    "vital_signs": {
+      "temperature": 36.8,
+      "blood_pressure": 130.0,
+      "oxygen_saturation": 97.0
+    }
+  },
+  {
+    "name": "Olivia Rodriguez",
+    "age": 26,
+    "pain_level": 9,
+    "current_illness": "internal bleeding"
+  },
+  {
+    "name": "Pablo Thompson",
+    "age": 44,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "diabetes"
+    ],
+    "vital_signs": {
+      "temperature": 40.0,
+      "blood_pressure": 110.0,
+      "oxygen_saturation": 95.0
+    }
+  },
+  {
+    "name": "Rebeca Anderson",
+    "age": 21,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  },
+  {
+    "name": "Sebastian Garcia",
+    "age": 54,
+    "pain_level": 8,
+    "current_illness": "chest pain",
+    "medical_history": [
+      "heart disease",
+      "kidney disease"
+    ],
+    "vital_signs": {
+      "temperature": 37.2,
+      "blood_pressure": 145.0,
+      "oxygen_saturation": 93.0
+    }
+  },
+  {
+    "name": "Teresa Wilson",
+    "age": 30,
+    "pain_level": 3,
+    "current_illness": "headache"
+  },
+  {
+    "name": "Ulises Davis",
+    "age": 39,
+    "pain_level": 7,
+    "current_illness": "breathing difficulty",
+    "medical_history": [
+      "epoc"
+    ],
+    "vital_signs": {
+      "temperature": 38.5,
+      "blood_pressure": 100.0,
+      "oxygen_saturation": 89.0
+    }
+  },
+  {
+    "name": "Valentina Miller",
+    "age": 27,
+    "pain_level": 4,
+    "current_illness": "abdominal pain",
+    "social_factors": [
+      "with family support"
+    ]
+  },
+  {
+    "name": "Wilfredo Johnson",
+    "age": 62,
+    "pain_level": 6,
+    "current_illness": "fracture",
+    "medical_history": [
+      "liver disease",
+      "vascular disease"
+    ],
+    "vital_signs": {
+      "temperature": 36.6,
+      "blood_pressure": 135.0,
+      "oxygen_saturation": 98.0
+    }
+  },
+  {
+    "name": "Xochitl Smith",
+    "age": 24,
+    "pain_level": 9,
+    "current_illness": "internal bleeding"
+  },
+  {
+    "name": "Yolanda White",
+    "age": 46,
+    "pain_level": 2,
+    "current_illness": "persistent fever",
+    "medical_history": [
+      "hypertension"
+    ],
+    "vital_signs": {
+      "temperature": 39.7,
+      "blood_pressure": 105.0,
+      "oxygen_saturation": 96.0
+    }
+  },
+  {
+    "name": "Zacarias Taylor",
+    "age": 20,
+    "pain_level": 5,
+    "current_illness": "bloody vomit"
+  }
+]

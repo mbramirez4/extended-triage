@@ -5,7 +5,12 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.ArrayList;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 public class Patient implements Comparable<Patient> {
+    private static final Logger logger = LogManager.getLogger(Patient.class);
+
     private final static String[] highRiskConditions = {
         "cancer", "heart disease", "epoc", "kidney disease", "liver disease",
     };
@@ -138,6 +143,16 @@ public class Patient implements Comparable<Patient> {
             vitalSignsPriority, painPriority, socialPriority
         );
 
+        logger.debug(
+            "Patient " + name + " classified as "
+            + overallPriority.getDescription() + " priority."
+            + "Priority scores: \n Age: " + agePriority.getDescription()
+            + " Medical history: " + medicalHistoryPriority.getDescription()
+            + " Current illness: " + illnessPriority.getDescription()
+            + " Vital signs: " + vitalSignsPriority.getDescription()
+            + " Pain level: " + painPriority.getDescription()
+            + " Social factors: " + socialPriority.getDescription());
+
         overallPriorityScore = PriorityLevel.sum(
             agePriority, medicalHistoryPriority, illnessPriority,
             vitalSignsPriority, painPriority, socialPriority
@@ -147,7 +162,7 @@ public class Patient implements Comparable<Patient> {
     private PriorityLevel classifyByAge() {
         if (age < 1 || age > 70) {
             return PriorityLevel.HIGH;
-        } else if (age <= 70 || age >= 40) {
+        } else if (age <= 70 && age >= 40) {
             return PriorityLevel.MEDIUM;
         }
         return PriorityLevel.LOW;
